@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">QuickZ</string>
+    <string name="boton_JuegoLocal">Juego 1 vs 1</string>
+    <string name="boton_JuegoMultijugador">Juego Multijugador</string>
+    <string name="boton_Ajustes">Ajustes</string>
+    <string name="boton_Salir">Salir</string>
+    <string name="boton_LanzarDado">Lanzar Dado</string>
+
+
+    <!-- VistaJuego -->
+    <string name="btnResp">Respuesta</string>
+    <string name="btnResp1">Respuesta1</string>
+    <string name="btnResp2">Respuesta2</string>
+    <string name="btnResp3">Respuesta3</string>
+
+    <string name="modoJuego">Acierta 5 preguntas para ganar</string>
+    <string name="modoJuegoRepaso">Completa el hueco para ganar</string>
+    <string name="modoJuegoMemory">Descubre todas las parejas para ganar</string>
+    <string name="modoJuegoFinal">Acierta la pregunta final para ganar</string>
+    <string name="ahorcado">Adivina la palabra para ganar</string>
+    <string name="tvPreg">Pregunta</string>
+
+    <string name="hintAhorcado">Introduce una letra</string>
+    <string name="btnComprobar">Comprobar</string>
+
+    <string name="reglas">Reglas</string>
+    <string name="creadores">Sobre la aplicacion</string>
+    <string name="musica">Quitar/Poner Musica</string>
+
+    <string-array name="opciones_array">
+        <item>Reglas</item>
+        <item>Creadores</item>
+        <item>Poner/Quitar Música</item>
+    </string-array>
+
+    <string name="opciones_dialog_titulo">Opciones</string>
+
+    <string name="musica_desactivada">Música desactivada</string>
+    <string name="musica_activada">Música activada</string>
+
+    <string name="titulo_reglas">Reglas</string>
+    <string name="mensaje_reglas">
+    Normas del Juego:\n
+    \n
+    Bienvenido al emocionante mundo del Trivial Challenge! En este juego de estrategia y conocimientos, tu misión es recorrer el tablero, enfrentarte a diversos desafíos y completar los minijuegos para ganar a tu rival. Aquí tienes una visión general de cómo se desarrolla el juego:\n
+    \n
+    1. Recorrido del Tablero:\n
+       - Avanza por el tablero cayendo en casillas numeradas.\n
+       - Cada número representa un minijuego único que debes superar.\n
+    \n
+    2. Minijuegos Principales:\n
+       - Hay cuatro minijuegos principales, cada uno con su propio desafío único:\n
+         a. Repaso:\n
+            - Debes responder 5 preguntas de forma correcta para ganar.\n
+            - Preguntas generales y de baja dificultad.\n
+         b. Unir Conceptos:\n
+            - Une las casillas con palabras a las imágenes correspondientes.\n
+            - Completa la tarea antes de que se acabe el tiempo para ganar.\n
+         c. Test:\n
+            - Responde 5 preguntas tipo test.\n
+            - Indica la palabra que falta en la expresión mostrada.\n
+         d. Ahorcado:\n
+            - Adivina la palabra descubriendo letras sin cometer 6 fallos.\n
+    \n
+    3. Pregunta Final:\n
+       - Si completas los cuatro minijuegos principales, llegarás a la pregunta final.\n
+       - Debes responder correctamente para ganar la partida.\n
+       - ¡Cuidado! Es la pregunta más difícil del juego con 4 posibles respuestas.\n
+    \n
+    Recuerda, cada victoria te acerca más al trofeo y al honor. ¡Buena suerte en tu travesía por el Trivial Challenge!\n
+</string>
+
+    <string name="titulo_creadores">Creadores</string>
+    <string name="mensaje_creadores">    ¡Nos complace anunciar el lanzamiento de nuestra nueva aplicación de quiz creada por Sergio García y Pablo Mata! Ha sido un emocionante viaje de desarrollo y dedicación, y estamos emocionados de compartir esta experiencia contigo.\n
+    \n
+    La aplicación Quickz es más que una aplicación, es una creación que refleja nuestro compromiso y pasión por brindar entretenimiento de calidad. Hemos invertido tiempo, esfuerzo y creatividad para llevar a cabo un proyecto que esperamos que disfrutes tanto como nosotros al crearlo.\n
+    \n
+    En esta aplicación, te traemos un juego de quiz emocionante. Cada detalle ha sido cuidadosamente diseñado para proporcionar una experiencia envolvente y educativa.\n
+    \n
+    ¡Descarga el juego ahora y sumérgete en el mundo de Quickz! ¡Que la diversión y el conocimiento comiencen!\n
+    \n
+    Atentamente,\n
+    Sergio García y Pablo Mata
+</string>
+
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="boton_cancelar">Cancelar</string>
+
+    <string name="salir_titulo">Salir</string>
+    <string name="salir_mensaje">¿Estás seguro de que quieres salir de la aplicación?</string>
+
+    <string name="boton_si">Sí</string>
+    <string name="boton_no">No</string>
+
+    <string name="sin_conexion_titulo">No hay conexión a internet</string>
+    <string name="sin_conexion_mensaje">Por favor, conéctate a internet para poder seguir jugando a nuestro juego. \n\nSi no, la app se cerrará.</string>
+    <string name="perdiendo_conexion_titulo">Se está perdiendo la conexión a internet</string>
+    <string name="perdiendo_conexion_mensaje">Por favor, conéctate a internet para poder jugar</string>
+    <string name="perdida_conexion_titulo">Se ha perdido la conexión a internet</string>
+    <string name="perdida_conexion_mensaje">Por favor, conéctate a internet para poder jugar</string>
+    <string name="boton_salir">Salir</string>
+
+    <string name="alerta_victoria_titulo">¡Victoria!</string>
+    <string name="alerta_victoria_mensaje">¡Has ganado este minijuego! \n\nSe te añadirá a tu contador de minijuegos y continuará tu turno." +
+        " \n\nSi ya ganaste el minijuego anteriormente, se guardará tu victoria." +
+        "\n\nAcepta para continuar.</string>
+
+    <string name="alerta_derrota_titulo">Derrota</string>
+    <string name="alerta_derrota_mensaje">Has perdido...\nTurno para el siguiente jugador.\n\nAcepta para continuar.</string>
+
+    <string name="dialogo_guardar_partida_titulo">Guardar Partida</string>
+    <string name="dialogo_guardar_partida_mensaje">¿Desea sobrescribir la partida existente o crear una nueva?</string>
+    <string name="boton_sobrescribir">Sobrescribir</string>
+    <string name="boton_nueva">Nueva</string>
+
+    <string name="dialogo_guardar_partida_nueva_mensaje">¿Desea crear una nueva partida?</string>
+
+
+    <string name="dialogo_confirmar_borrado_titulo">Confirmar Borrado</string>
+    <string name="dialogo_confirmar_borrado_mensaje">¿Estás seguro de que quieres borrar la partida %1$d?</string>
+    <string name="dialogo_confirmar_borrado_actual_mensaje">¿Estás seguro de que quieres borrar la PARTIDA ACTUAL?</string>
+
+    <string name="dialogo_confirmar_cargar_partida_titulo">Confirmar Borrado</string>
+    <string name="dialogo_confirmar_cargar_partida_mensaje">¿Estás seguro de que quieres cargar la partida %1$d?</string>
+
+    <string name="dialogo_bienvenida_titulo">1 Vs 1</string>
+    <string name="dialogo_bienvenida_mensaje">Bienvenido al trivial. Tu misión es completar todos los minijuegos para ganar la partida.
+    \n\nEn el tablero hay 4 minijuegos, y una vez completes todos, llegarás a la pregunta final.
+    Se el primero en acertarla y ganarás la partida.
+    \n\n¡Mucha suerte!\n\nAcepta para continuar.</string>
+
+    <string name="guardar_partida">Guardar Partida</string>
+    <string name="borrar_partida">Borrar Partida</string>
+    <string name="cargar_partida">Cargar Partida</string>
+</resources>
